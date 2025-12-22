@@ -717,8 +717,24 @@ li:hover {
 .user_agreement {
   font-size: 12px;
   text-align: right;
-  text-decoration: underline;
   color: #D0D0D0;
+}
+
+.user_agreement:visited {
+  color: purple;
+}
+
+.user_agreement:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.user_agreement:focus {
+  color: green;
+}
+
+.user_agreement:active {
+  color: hsl(50, 100%, 50%);
 }
 
 @media (max-width: 768px) {
